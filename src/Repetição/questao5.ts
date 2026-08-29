@@ -2,12 +2,12 @@
 //  Quantidade de números digitados
 //  Soma total
 
-let numero: number = 1
+let digitaNumero: number = 1
 let quantNum = 0
 let somaTotal = 0
 
-while (numero !== 0) {
-    numero = Number(prompt("Informe um número, digite ( 0 ) para sair: "))
+while (digitaNumero !== 0) {
+    digitaNumero = Number(prompt("Informe um número, digite ( 0 ) para sair: "))
 
     if (numero !== 0) {
         somaTotal += numero
