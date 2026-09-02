@@ -1,3 +1,8 @@
+//POO
 import { executarQuestao1 } from "./POO/questao1.js";
+import { executarQuestao2 } from "./POO/questao2.js";
+import { executarQuestao3 } from "./POO/questao3.js";
 
 document.getElementById('btn1')?.addEventListener("click", executarQuestao1)
+document.getElementById('btn2')?.addEventListener("click", executarQuestao2)
+document.getElementById('btn3')?.addEventListener("click", executarQuestao3)
