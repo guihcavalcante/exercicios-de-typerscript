@@ -9,10 +9,10 @@ let valor1: number = Number(prompt("Digite o primeiro número:"))
 let valor2: number = Number(prompt("Digite o segundo número:"))
 
 let opcao: number = Number(prompt(
-    "Escolha uma operação:\n" +
-    "1 - Soma\n" +
-    "2 - Subtração\n" +
-    "3 - Multiplicação\n" +
+    "Escolha uma operação:" +
+    "1 - Soma" +
+    "2 - Subtração" +
+    "3 - Multiplicação" +
     "4 - Divisão"
 ))
 

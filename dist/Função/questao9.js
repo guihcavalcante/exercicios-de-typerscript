@@ -9,6 +9,6 @@ function somarAte(numero) {
     return soma;
 }
 let numPositivo = Number(prompt("Digite um número positivo: "));
-let Resultado = somarAte(numPositivo);
+let resultado = somarAte(numPositivo);
 console.log("a soma de 1 até: " + numPositivo + " é:  " + resultado);
 export {};

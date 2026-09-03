@@ -32,7 +32,7 @@ for (let i = 0; i < notas.length; i++) {
     soma += notas[i]
 }
 
-let Media = 0
+let media = 0
 if (quantidade > 0) {
     media = soma / quantidade
 }
@@ -47,5 +47,5 @@ for (let i = 0; i < notas.length; i++) {
 console.log("Quantidade de notas: "+ quantidade)
 console.log("Notas em ordem inversa: "+ notasReversas)
 console.log("Soma das notas: "+ soma)
-console.log("Média das notas: "+ media.toFixed(2))
+console.log("Média das notas: "+ media)
 console.log("Notas acima da média: "+ acimaMedia)
